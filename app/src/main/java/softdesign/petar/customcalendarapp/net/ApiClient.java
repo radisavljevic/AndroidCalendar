@@ -13,7 +13,14 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 public class ApiClient {
 
-    public static final String BASE_URL = "";
+    public static final String BASE_URL = "http://89.216.23.159:8484/";
+    //Bonesa 37.0.68.197:8080
+    //212.200.120.118
+    // nedeljkovic novi server 212.200.251.250
+    //port test 89.216.23.159:8484
+    //192.168.77.112 moj lokal
+    //Gombit primergy 95.140.123.38:8080
+    //Moj test 89.216.23.159:8484
 
     private static Retrofit retrofit = null;
 
