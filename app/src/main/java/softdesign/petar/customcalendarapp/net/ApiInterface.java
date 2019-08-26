@@ -37,9 +37,6 @@ import softdesign.petar.customcalendarapp.Events;
 
 public interface ApiInterface {
 
-    //@GET("events2")
-    //Call<List<Events>> getEventsPerMonth();
-
     @POST("/events2")
     Call<Events> postEvent(@Body Events event);
 
