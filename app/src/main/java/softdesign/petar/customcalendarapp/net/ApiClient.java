@@ -23,8 +23,7 @@ public class ApiClient {
     //Moj test 89.216.23.159:8484
 
     private static Retrofit retrofit = null;
-
-
+    
     public static Retrofit getClient() {
         if (retrofit == null) {
 
@@ -43,6 +42,4 @@ public class ApiClient {
         }
         return retrofit;
     }
-
-
 }
